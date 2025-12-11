@@ -87,6 +87,11 @@ body {
   color: #303b59;
   margin-bottom: 28px;
 }
+.boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 .box {
   width: 100%;
   min-height: 50px;
@@ -122,4 +127,31 @@ body {
   font-size: 18px;
   font-weight: 700;
   color: #9799a8;
+}
+.box-2 {
+  background-color: #fffbf4;
+}
+.var-2 {
+  color: #ffb21e;
+}
+.box-3 {
+  background-color: #f2fcf9;
+}
+.var-3 {
+  color: #00bb8f;
+}
+.box-4 {
+  background-color: #f3f4fd;
+}
+.var-4 {
+  color: #664eff;
+}
+button {
+  width: 100%;
+  margin-top: 41px;
+  padding: 17px 0;
+  border: none;
+  border-radius: 128px;
+  background-color: #303b59;
+  color: #fff;
 }
